@@ -9,5 +9,5 @@ export function computeProgress(skills) {
     }
   }
 
-  return Math.round((okCount / skills.length) * 100);
+  return (okCount / skills.length) * 100;
 }
